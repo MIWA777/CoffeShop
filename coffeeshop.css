@@ -1,0 +1,765 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.header-perent {
+    display: flex;
+    background-color: #1c1814;
+    width: 100%;
+    height: 141px;
+}
+
+.header-menu {
+    position: relative;
+    display: flex;
+    gap: 48px;
+    transition: 0.5s;
+    margin-left: 300px;
+    margin-top: 67px;
+    margin-bottom: 36px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header-menu a {
+    color: white;
+}
+
+.header-menu :hover {
+    color: #C99E71;
+    transition: 0.5s;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+    margin-top: 34px;
+}
+
+.header-menu1 {
+    display: flex;
+    gap: 48px;
+    transition: 0.5s;
+    margin-top: 67px;
+    margin-bottom: 36px;
+    margin-left: 250px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header-menu1 a {
+    color: white;
+}
+
+.header-menu1 :hover {
+    color: #C99E71;
+    transition: 0.5s;
+}
+
+.main-perent {
+    display: flex;
+}
+
+.main-img img {
+    width: 1900px;
+    height: 1000px;
+    position: relative;
+    overflow: visible;
+}
+
+.main-img {
+    width: 1900px;
+    height: 100px;
+}
+
+.main-info p {
+    z-index: 1;
+    position: absolute;
+    margin-left: 500px;
+    color: aliceblue;
+}
+
+.main-info button {
+    position: absolute;
+    z-index: 1;
+}
+
+.main-logo {
+    position: absolute;
+}
+
+.info1 {
+    margin-top: 163px;
+    margin-left: -500px;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.info2 {
+    margin-top: 380px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.btn1 {
+    color: white;
+    background-color: #C99E71;
+    border-color: transparent;
+    padding: 24px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 500px;
+    margin-left: 500px;
+    transition: 0.5s;
+}
+
+.btn1:hover {
+    color: #C99E71;
+    background-color: white;
+}
+
+.main-logo {
+    margin-left: 1400px;
+    margin-top: 480px;
+}
+
+.menus-perent {
+    display: flex;
+    margin-top: 1100px;
+    margin-left: 375px;
+    gap: 40px;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 140px;
+}
+
+div p {
+    margin-bottom: 24px;
+}
+
+.img-1 {
+    margin-left: 375px;
+    margin-top: -50px;
+    width: 300px;
+}
+
+.img-2 {
+    margin-top: 32px;
+    margin-left: 375px;
+    width: 300px;
+}
+
+.img-3 {
+    margin-top: -348px;
+    margin-left: 35px;
+    width: 300px;
+    height: 725px;
+    z-index: 1;
+    position: absolute;
+}
+
+.our-infos {
+    background-color: #1c1814;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 1045px;
+    margin-top: -725px;
+    width: 510px;
+    height: 721px;
+    margin-bottom: 140px;
+}
+
+.our-info1 {
+    color: #C99E71;
+    margin-top: 120px;
+    margin-left: 55px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.our-info2 {
+    margin-left: 55px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.our-info3 {
+    color: gray;
+    margin-left: 55px;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 35px;
+}
+
+.p-1 {
+    color: #C99E71;
+    text-align: center;
+    font-size: 18px;
+}
+
+.p-2 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 55px;
+}
+
+.shoping-perent {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+}
+
+.shoping-1 {
+    background-color: rgb(18, 19, 21);
+    width: 366px;
+    height: 580px;
+    padding: 48px;
+}
+
+.shoping-2 {
+    background-color: rgb(18, 19, 21);
+    width: 366px;
+    height: 580px;
+    padding: 48px;
+}
+
+.shoping-3 {
+    background-color: rgb(18, 19, 21);
+    width: 366px;
+    height: 580px;
+    padding: 48px;
+}
+
+.shoping-info {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 36px;
+}
+
+.shoping-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #C99E71;
+    border: 1px solid transparent;
+    width: 170px;
+    height: 48px;
+    gap: 20px;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.shoping-btn:hover {
+    color: #C99E71;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.shoping-icon :hover {
+    color: #C99E71;
+}
+
+.shoping-info1 {
+    color: #C99E71;
+    text-align: center;
+    margin-top: 36px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.shoping2-info {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 36px;
+}
+
+.shoping2-info2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.shoping-buttn {
+    background-color: #C99E71;
+    color: white;
+    width: 252px;
+    height: 65px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1px solid transparent;
+    margin-left: 825px;
+    margin-top: 55px;
+    transition: 0.5s;
+}
+
+.shoping-buttn:hover {
+    color: #C99E71;
+    background-color: white;
+}
+
+.section_btn:hover {
+    color: #C99E71;
+    background-color: white;
+}
+
+.blendir {
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1814;
+    width: 1170px;
+    height: 530px;
+    margin-left: 375px;
+    margin-top: 140px;
+    color: white;
+}
+
+.blendir img {
+    width: 225px;
+    height: 360px;
+    margin-left: 170px;
+    margin-top: 85px;
+}
+
+.blendir-info1 {
+    margin-left: 555px;
+    margin-top: -383px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.blendir-info2 {
+    width: 535px;
+    margin-left: 555px;
+    color: grey;
+    line-height: 30px;
+}
+
+.blendir button {
+    color: white;
+    background-color: #C99E71;
+    border: 1px solid transparent;
+    width: 215px;
+    height: 62px;
+    margin-left: 555px;
+    margin-top: 45px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+.blendir-btn:hover {
+    color: #C99E71;
+    background-color: white;
+    border: 1px solid transparent;
+}
+
+.menu-pm {
+    margin-top: 110px;
+    color: #C99E71;
+    text-align: center;
+}
+
+.menu-pm-2 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+
+.manu-img1 {
+    color: white;
+    display: flex;
+    border: 1px solid gray;
+    width: 565px;
+    height: 120px;
+}
+
+.section-menu img {
+    width: 72px;
+    height: 72px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.menu-img-perent2 {
+    margin-left: 980px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: -585px;
+}
+
+.menu-img-perent1 {
+    margin-left: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.menu-img-info {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.menu-img-info2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
+.menu-img-info3 {
+    color: #C99E71;
+    margin-top: 45px;
+    margin-left: 117px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menu-img-info4 {
+    color: #C99E71;
+    margin-top: 45px;
+    margin-left: 117px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.test-info1 {
+    color: #C99E71;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 140px;
+}
+
+.test-info2 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.test-1 {
+    background-color: #1c1814;
+    width: 565px;
+    height: 305px;
+    margin-left: 375px;
+    color: white;
+    margin-top: 55px;
+}
+
+.test-1 img {
+    margin: 40px;
+}
+
+.test1-info1 {
+    font-weight: 100;
+    color: gray;
+    margin-left: 195px;
+    margin-top: -195px;
+    line-height: 25px;
+    width: 332px;
+}
+
+.test1-info2 {
+    margin-left: 40px;
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.test1-info3 {
+    margin-left: 40px;
+    color: gray;
+    margin-top: -15px;
+}
+
+.test1-icons {
+    color: yellow;
+    margin-left: 409px;
+    margin-top: -39px;
+}
+
+.test-2 {
+    background-color: #1c1814;
+    width: 565px;
+    height: 305px;
+    margin-left: 980px;
+    color: white;
+    margin-top: -305px;
+}
+
+.test-2 img {
+    margin: 40px;
+}
+
+.test2-info1 {
+    font-weight: 100;
+    color: gray;
+    margin-left: 195px;
+    margin-top: -195px;
+    line-height: 25px;
+    width: 332px;
+}
+
+.test2-info2 {
+    margin-left: 40px;
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.test2-info3 {
+    margin-left: 40px;
+    color: gray;
+    margin-top: -15px;
+}
+
+.test2-icons {
+    color: yellow;
+    margin-left: 409px;
+    margin-top: -39px;
+}
+
+.test2-info1 {
+    color: gray;
+}
+
+.test-input {
+    margin-left: 375px;
+    margin-top: 25px;
+}
+
+.input-info {
+    color: #C99E71;
+    margin-left: 375px;
+    margin-top: 36px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.test-btn {
+    position: absolute;
+    background-color: rgb(18, 19, 21);
+    color: white;
+    width: 56px;
+    height: 56px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    margin-left: 920px;
+    margin-top: -30px;
+    transition: 0.5s;
+}
+
+.test-btn1 {
+    position: absolute;
+    background-color: rgb(18, 19, 21);
+    color: white;
+    width: 56px;
+    height: 56px;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    margin-left: 986px;
+    margin-top: -30px;
+    transition: 0.5s;
+}
+
+.test-btn1:hover {
+    color: rgb(18, 19, 21);
+    background-color: #C99E71;
+}
+
+.test-btn:hover {
+    color: rgb(18, 19, 21);
+    background-color: #C99E71;
+}
+
+.map-img {
+    margin-top: 140px;
+    margin-left: 375px;
+}
+
+.map-perent {
+    background-color: #1c1814;
+    width: 585px;
+    height: 652px;
+    margin-left: 960px;
+    margin-top: -656px;
+}
+
+.map-info1 {
+    color: #C99E71;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 244px;
+    padding-top: 72px;
+}
+
+.map-info2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 116px;
+}
+
+.inp {
+    display: flex;
+    width: 489px;
+    height: 64px;
+    margin-left: 48px;
+    margin-top: 24px;
+    background-color: rgb(20, 17, 14);
+    border: 1px solid transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.map-btn {
+    color: white;
+    background-color: #C99E71;
+    border: 1px solid transparent;
+    width: 202px;
+    height: 62px;
+    margin-left: 192px;
+    margin-top: 55px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.news-info1 {
+    color: #C99E71;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 910px;
+    margin-top: 140px;
+}
+
+.news-info2 {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left: 781px;
+}
+
+.news-infos {
+    background-color: #1c1814;
+    height: 528px;
+    width: 366px;
+    margin-left: 375px;
+    margin-top: 55px;
+    color: white;
+}
+
+.news1-info1 {
+    margin-left: 24px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.news1-info2 {
+    margin-left: 265px;
+    margin-top: -45px;
+    font-size: 18px;
+}
+
+.news1-info3 {
+    margin-left: 24px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.news1-info4 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #C99E71;
+    margin-left: 24px;
+}
+
+.news-infos2 {
+    background-color: #1c1814;
+    height: 528px;
+    width: 366px;
+    color: white;
+    margin-left: 777px;
+    margin-top: -528px;
+}
+
+.news-infos3 {
+    background-color: #1c1814;
+    height: 528px;
+    width: 366px;
+    color: white;
+    margin-left: 1179px;
+    margin-top: -528px;
+    margin-bottom: 140px;
+}
+
+.footer-perent {
+    display: flex;
+    margin-left: 375px;
+    align-items: center;
+    gap: 38px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-perent a {
+    color: white;
+}
+
+.footer-perent a:hover {
+    color: #C99E71;
+    transition: 0.5s;
+}
+
+.footer-btn {
+    position: absolute;
+    width: 328px;
+    height: 72px;
+    color: gray;
+    background-color: #1c1814;
+    margin-left: 1216px;
+    margin-top: -78px;
+    border: 1px solid transparent;
+    border-radius: 36px;
+    padding-right: 140px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-child {
+    position: absolute;
+    color: white;
+    background-color: #C99E71;
+    border: 1px solid transparent;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    margin-left: 1484px;
+    margin-top: -66px;
+}
+.the-and {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1c1814;
+    height: 72px;
+    margin-top: 80px;
+}
